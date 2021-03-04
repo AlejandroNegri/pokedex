@@ -12,6 +12,8 @@ function Home({ pokemonListData }) {
 
   useEffect(() => {}, [filteredPokemonList]);
 
+
+  
   useEffect(() => {
     setPokemonList(pokemonListData);
     setFilteredPokemonList(pokemonListData);
