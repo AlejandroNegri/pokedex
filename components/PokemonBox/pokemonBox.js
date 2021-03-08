@@ -1,7 +1,6 @@
 import styles from "./pokemonBox.module.css";
 
 export default function PokemonBox({ data, onClick }) {
-  //console.log("data from box", data);
   return (
     <div className={styles.pokemonBox} onClick={onClick}>
       <img className={styles.pokemonImage} src={data.image} />
